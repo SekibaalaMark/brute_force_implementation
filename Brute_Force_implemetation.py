@@ -74,4 +74,5 @@ for sequence in sequences:
 
 # Find the best (shortest) route from the results
 best_route = min(results, key=results.get)  # Get the route with the minimum distance
-print(f"Final Tour: {best_route} with distance {results[best_route]}")  # Output the best route and its distance
+print(f"Final Tour: {best_route}")  # Output the best route
+print(f"Total route cost is {results[best_route]}")#Output the total distance covered in the best route tour
